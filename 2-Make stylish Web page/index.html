@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A Simple Web Page with Styling</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Udacity HTML Basics</h1>
+    </div>
+    <!-- HTML and CSS files pass an automated validation check -->
+    <!-- Related container elements have the same class name -->
+    <!-- Conceptually related content is contained within a container element -->
+      <section class="html-section">
+        <div class="html-structure">
+          <h2 class="subheader">Basic HTML document structure:</h2>
+            <ol>
+              <li>Doctype declaration informs browser what kind of document it's rendering</li>
+              <li>HTML tags surround document</li>
+              <li>Head contains metadata, title, links to CSS and Javascript</li>
+              <li>Body contains renderable contents</li>
+            </ol>
+        </div>
+        <div class="image">
+          <!-- Page displays at least 1 picture and some text -->
+          <img src="image.png" alt="basic html structure">
+          <div class="caption">Logo of HTML and CSS</div>
+        </div>
+      </section>
+    <div class="web-basics-html">
+      <h2 class="subheader">Basic HTML Elements</h2>
+        <table class="web-basics-table">
+          <tr>
+            <th>Name</th><th>Tag</th><th>Purpose/function</th>
+          </tr>
+          <tr>
+            <td><em>Emphasis</em></td><td>&#60;em>content&#60;&#47;em></td><td>Creates italic text</td>
+          </tr>
+          <tr>
+            <td><b>Bold</b></td><td>&#60;b>content&#60;&#47;b></td><td>Creates bold text</td>
+          </tr>
+          <tr>
+            <td>Anchor</td><td>&#60;a>content&#60;&#47;a></td><td>Creates a hyperlink</td>
+          </tr>
+          <tr>
+            <td>Image</td><td>&#60;img src="#" alt="#"></td><td>Creates an image. This tag is self-closing</td>
+          </tr>
+          <tr>
+            <td>Line Break</td><td>content&#60;br>content</td><td>Creates a line break. This is an in-line element and self-closing</td>
+          </tr>
+          <tr>
+            <td>Paragraph</td><td>&#60;p>content&#60;&#47;p></td><td>Creates a paragraph and line-breaks. This is a block element</td>
+          </tr>
+          <tr>
+            <td>Division</td><td>&#60;div>content&#60;&#47;div></td><td>Creates a container for text and other elements. This is a block element</td>
+          </tr>
+          <tr>
+            <td>Span</td><td>&#60;span>content&#60;&#47;span></td><td>Creates an in-line container for text</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="of-interest">
+        <h2 class="subheader">Notes of Interest</h2>
+        <ul>
+          <li>White space is mostly ignored by HTML, except inside tags</li>
+          <li>Inline elements don't create line breaks or box (block), while block elements do</li>
+        </ul>
+      </div>
+
+  </body>
+</html>
